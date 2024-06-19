@@ -1,0 +1,37 @@
+{
+  "name": "Areteans_Extensions_CardWithUrl",
+  "label": "Card with URL",
+  "description": "THis is Cards which have contents and link URL",
+  "organization": "Areteans",
+  "version": "1.0.0",
+  "library": "Extensions",
+  "allowedApplications": [],
+  "componentKey": "Areteans_Extensions_CardWithUrl",
+  "type": "Widget",
+  "subtype": "PAGE",
+  "icon": "OneColumnPage.svg",
+  "properties": [
+    {
+      "name": "cardMinWidth",
+      "label": "Minimum width of each card",
+      "format": "TEXT"
+    },
+    {
+      "name": "dataPage",
+      "label": "Data Page name to get the list from",
+      "format": "TEXT"
+    },
+    {
+      "label": "Conditions",
+      "format": "GROUP",
+      "properties": [
+        {
+          "name": "visibility",
+          "label": "Visibility",
+          "format": "VISIBILITY"
+        }
+      ]
+    }
+  ],
+  "defaultConfig": {}
+}
